@@ -1,0 +1,18 @@
+name: epri_asset
+channels:
+  - defaults
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.10
+  - conda-forge::ultralytics
+  - piexif
+  - geopy
+  - pytorch=2.3
+  - torchvision=0.18
+  - timm=0.6.7
+  - scipy
+  - matplotlib
+  - pip:
+      - opencv-python
+prefix: /home/cnd/anaconda3/envs/epri_asset
